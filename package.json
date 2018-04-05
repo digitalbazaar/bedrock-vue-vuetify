@@ -1,0 +1,17 @@
+{
+  "name": "bedrock-vue-vuetify",
+  "version": "0.1.0-0",
+  "description": "Bedrock Vuetify",
+  "main": "index.js",
+  "dependencies": {
+    "bedrock-vue": "digitalbazaar/bedrock-vue#implementation",
+    "vuetify": "^1.0.13"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/digitalbazaar/bedrock-vue-vuetify"
+  },
+  "bedrock": {
+    "browserDependencies": "all"
+  }
+}
