@@ -5,11 +5,12 @@
  */
 'use strict';
 
+import BrRoot from './BrRoot.vue';
 import Vuetify from 'vuetify';
 
 export function install(Vue, options) {
   // replace default `br-root` with one that uses `v-app`
-  Vue.component('br-root', {template: '<v-app><slot></slot></v-app>'});
+  Vue.component('br-root', BrRoot);
 
   Vue.use(Vuetify);
 }
